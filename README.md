@@ -1,7 +1,7 @@
 # q2a-waves-pay
-Waves payment plugin for [Question2Answer](https://wavesplatform.com/) which is a free and open source platform for Q&A sites.
+Waves payment plugin for [Question2Answer](https://wavesplatform.com/) (Q2A) which is a free and open source platform for Q&A sites.
 
-Waves-pay is a supporting plugin for other Question2Answer plugins that want to utilize the [Waves Payments API](https://docs.wavesplatform.com/en/development-and-api/client-api/payments-api.html).
+Waves-pay is a supporting plugin for other Q2A plugins that want to utilize the [Waves Payments API](https://docs.wavesplatform.com/en/development-and-api/client-api/payments-api.html).
 
 ## Features
 
@@ -11,6 +11,17 @@ Waves-pay is a supporting plugin for other Question2Answer plugins that want to 
 - Wrap the Waves payment API call with a simpler function.
 - Wrap the Waves transaction verification with a simpler function.
 - Record all payments into a database table.
+
+## Installation
+
+- Download and extract the files into the Q2A plugin folder *qa-plugin/waves-pay*.
+- In the Q2A *Admin* menu click *Plugins* sub-menu.
+- Tick the *Enabled* checkbox for the *Waves Pay* plugin.
+- Click the *Save Options* button.
+- There will be a red message saying *The Waves Payments Page page module requires some database initialization.*
+- Click the *database initialization* link. An instruction page will open.
+- Click the *Initialize the Database* button.
+- Done. Click the *Go to admin center* link.
 
 ## Functions
 
