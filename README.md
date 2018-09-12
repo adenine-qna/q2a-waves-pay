@@ -1,5 +1,5 @@
 # q2a-waves-pay
-Waves payment plugin for [Question2Answer](https://wavesplatform.com/) (Q2A) which is a free and open source platform for Q&A sites.
+Waves payment plugin for [Question2Answer](https://www.question2answer.org/) (Q2A) which is a free and open source platform for Q&A sites.
 
 Waves-pay is a supporting plugin for other Q2A plugins that want to utilize the [Waves Payments API](https://docs.wavesplatform.com/en/development-and-api/client-api/payments-api.html).
 
