@@ -3,6 +3,8 @@ Waves payment plugin for [Question2Answer](https://www.question2answer.org/) (Q2
 
 Waves-pay is a supporting plugin for other Q2A plugins that want to utilize the [Waves Payments API](https://docs.wavesplatform.com/en/development-and-api/client-api/payments-api.html).
 
+The [donation](https://github.com/chelahmy/q2a-donation) plugin is using the waves-pay plugin.
+
 ## Features
 - Configurable Waves account address to receive all payments.
 - Configurable list of Waves assets acceptable as payments.
