@@ -187,17 +187,10 @@ class qa_waves_payments_page {
 	function page_waves_payments($content)
 	{
 		$content['title'] = qa_lang_html('plugin_waves_pay_desc/waves_payments');
-/*		
-		if (qa_clicked('prev')) {
-			$rec = array(
-				'asset_name' => 'Lams', 
-				'amount' => 67, 
-				'purpose' => 'Donate 67 points',
-			);
+
+		if (!isset($content['custom']))
+			$content['custom'] = '';
 			
-			$add = wp_create_payment($rec);
-		}
-*/
 		$reccnt = wp_count_payments();
 		$page = 0;
 		$pagelen = 25;
